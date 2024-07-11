@@ -5,6 +5,7 @@ import './App.css'
 import TextInput from './components/TextInput'
 import ApiGet from './components/ApiGet'
 import CardApi from './components/CardApi'
+import PokeMon from './components/PokeMon'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <div>
       {/* <TextInput/> */}
      {/* <ApiGet/> */}
-     <CardApi/>
+     {/* <CardApi/> */}
+     <PokeMon/>
     </div>
   )
 }
